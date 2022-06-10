@@ -1,0 +1,29 @@
+Package: cmhc2
+Type: Package
+Title: Legacy access CMHC data from the Housing Market Information Portal
+Version: 0.1.0
+Author: Jens von Bergmann
+Maintainer: Jens von Bergmann <jens@mountainmath.ca>
+Description: Legacy wrapper around the CMHC web interface, use the `cmhc` package for new projects.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports:
+    dplyr,
+    digest,
+    httr,
+    readr,
+    stringr,
+    tibble
+Suggests: 
+    knitr,
+    RColorBrewer,
+    scales,
+    cancensus,
+    classInt,
+    ggplot2,
+    tidyr,
+    rmarkdown,
+    sf
+VignetteBuilder: knitr
+RoxygenNote: 7.1.2
